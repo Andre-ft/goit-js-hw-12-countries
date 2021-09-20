@@ -43,6 +43,10 @@ const notificationOptions = {
     destroy: true,
     autoOpen: true,
     stack: myStack,
+//     stack: new Stack({
+//     dir1: 'down', dir2: 'right', // Position from the top left corner.
+//     firstpos1: 90, firstpos2: 90 // 90px from the top, 90px from the left.
+//   })
 };
 
 function onHandleData(data) {
